@@ -1,0 +1,30 @@
+.title-home,
+.title-fecha{
+    text-align: center;
+}
+.title-home{
+    color: var(--colorPrincipal);
+    font-weight: 700;
+    font-size: 4rem;
+    text-shadow: 0 0 2px var(--colorBlanco);
+}
+.home-elementos{
+    margin: 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+.home-elementos__img{
+    width: 40rem;
+    grid-column: 2 / 3;
+}
+.progress{
+    grid-row: 3 /4;
+    grid-column: 1 / 4;
+    margin: 2rem ;
+    height: 3rem;
+    font-size: 2.5rem;
+}
+.progress-bar{
+    background-color: var(--colorPrincipal);
+}

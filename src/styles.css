@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+    --colorPrincipal: #0EB1D2;
+    --colorNegro: #2B4141;
+    --colorBlanco: #f4f4f4;
+    --colorGradient:linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    background-image: var(--colorGradient);
+    color: var(--colorBlanco);
+}
+.flex{
+    display: flex;
+}
