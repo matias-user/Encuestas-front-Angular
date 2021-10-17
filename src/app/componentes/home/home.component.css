@@ -7,6 +7,7 @@
     font-weight: 700;
     font-size: 4rem;
     text-shadow: 0 0 2px var(--colorBlanco);
+    text-transform: uppercase;
 }
 .home-elementos{
     margin: 2rem 0;

@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './componentes/home/home.component';
 import { SidebarComponent } from './componentes/sidebar/sidebar.component';
+import { IngGastoComponent } from './componentes/ing-gasto/ing-gasto.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    SidebarComponent
+    SidebarComponent,
+    IngGastoComponent
   ],
   imports: [
     BrowserModule,
