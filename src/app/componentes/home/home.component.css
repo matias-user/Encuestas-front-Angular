@@ -1,6 +1,17 @@
-.title-home,
-.title-fecha{
+.home{
+    margin: 0 auto;
+    max-width: 120rem;
+}
+@media (min-width: 576px) {
+    .home{
+        display: block;
+    }
+}
+@media (min-width: 576px) {
+    .title-home,
+    .title-fecha{
     text-align: center;
+}
 }
 .title-home{
     color: var(--colorPrincipal);
@@ -14,13 +25,29 @@
 }
 .home-elementos{
     margin: 2rem 0;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    text-align: center;
+    display: block;
+    text-align: start;
+    
+}
+@media (min-width: 576px) {
+    .home-elementos{
+        display: block ;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        text-align: center;
+    }
 }
 .home-elementos__img{
-    width: 40rem;
-    grid-column: 2 / 3;
+    max-width: 20rem;
+    grid-column: 1 / 2;
+    padding: 0;
+    margin-left: -5rem ;
+}
+@media (min-width: 576px) {
+    .home-elementos__img{
+        grid-column: 2 / 3 ;
+        max-width: 40rem;
+    }
 }
 .progress{
     grid-row: 3 /4;

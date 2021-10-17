@@ -16,3 +16,6 @@ body{
 .flex{
     display: flex;
 }
+p{
+    font-size: 2rem;
+}

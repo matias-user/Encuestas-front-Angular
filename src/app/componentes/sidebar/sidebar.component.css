@@ -1,19 +1,40 @@
+aside{
+    margin-right: 1rem;
+}
 .nav{
-    width: 20rem;
+    max-width: 12rem;
     height: 100vh;
-    background-color: var(--colorNegro);
+    
     text-align: center;
     border-radius: 0 5px 5px 0;
 }
+@media (min-width: 576px) {
+    .nav{
+        max-width: 50rem;    
+        background-color: var(--colorNegro);
+    }
+}
 .nav-link{
     background-color: var(--colorPrincipal);
-    margin: 1.5rem 20px;
-    padding: 10px 20px;
-    border-radius: 10px;
+    margin: 1.5rem 8px;
+    padding: 5px 10px;
+    border-radius: 5px;
     color: var(--colorBlanco);
-    font-size: 2.5rem;
+    font-size: 1.7rem;
     line-height: 1;
+    max-width: 10rem;
+    border: 1px solid #fff;
+    box-shadow: 0px 0px 4px var(--colorPrincipal);
 }
+@media (min-width: 576px) {
+    .nav-link{
+        display: flex;
+        max-width: 25rem;
+        text-align: start;
+        font-size: 2.5rem;
+    }
+}
+
 .nav-link:hover{
     cursor: pointer;
     background-image: var(--colorGradient);
