@@ -9,6 +9,9 @@
     text-shadow: 0 0 2px var(--colorBlanco);
     text-transform: uppercase;
 }
+.title-fecha{
+    font-size: 3rem;
+}
 .home-elementos{
     margin: 2rem 0;
     display: grid;

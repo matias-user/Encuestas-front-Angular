@@ -1,0 +1,21 @@
+.ingresos{
+    display: flex;
+    align-items: center;
+}
+.form-control{
+    margin: 2rem 2rem 2rem 0;
+    width: 30rem;
+    height: 3rem;
+}
+.btn-ingresar{
+    background-color: var(--colorPrincipal);
+    color: #fff;
+    font-size: 2rem;
+    border-radius: 5px;
+    height: 5rem;
+    padding: 1rem 2rem;
+}
+.btn-ingresar:hover{
+    transition: .3s;
+    background-color: var(--colorNegro);
+}

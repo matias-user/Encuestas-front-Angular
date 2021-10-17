@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './componentes/home/home.component';
 import { SidebarComponent } from './componentes/sidebar/sidebar.component';
 import { IngGastoComponent } from './componentes/ing-gasto/ing-gasto.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { IngGastoComponent } from './componentes/ing-gasto/ing-gasto.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

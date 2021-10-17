@@ -17,4 +17,5 @@
 .nav-link:hover{
     cursor: pointer;
     background-image: var(--colorGradient);
+    transition: .10s;
 }

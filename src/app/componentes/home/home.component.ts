@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CajaService } from '../caja.service';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +8,9 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent  {
 
-  
-  constructor() { }
+  fecha: Date = new Date();
+  constructor(private cajaService: CajaService) { }
 
-  
+  total: number = this.cajaService.totalCaja;
 
 }
